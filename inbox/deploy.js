@@ -3,7 +3,7 @@ const Web3 = require('web3');
 const { interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
-  'denial visa gasp remember vicious absurd borrow swamp crisp relief swarm best',
+  process.env.ETHER_KEY,
   'https://rinkeby.infura.io/v3/4ffb96fa73ae4eeca38e25df74c6ca79'
 );
 
