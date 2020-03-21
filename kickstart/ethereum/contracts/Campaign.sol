@@ -51,8 +51,6 @@ contract Campaign {
         public
         restricted
     {
-        require(approvers[msg.sender]);
-
         Request memory newRequest = Request({
             description: description,
             value: value,
