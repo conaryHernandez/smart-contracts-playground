@@ -16,7 +16,6 @@ export default props => {
       <div>
         <Header />
         {props.children}
-        <h1>Im a footer</h1>
       </div>
     </Container>
   );
